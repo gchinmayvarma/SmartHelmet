@@ -1,1 +1,38 @@
-////
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+    <!-- <script src="https://unpkg.com/p5.xr@0.3.2-rc.3/dist/p5xr.js"></script> -->
+    <script src="p5xr.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Helmet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="status-bar">
+        <div id="status-bar-fill"></div>
+        <h3>Welding Machine: <span id="Welding" class="offline">Not Found</span></h3>
+        <h3>Glove IMU: <span id="Glove" class="offline">Not Found</span></h3>
+        <h3>IR+ARKit: <span id="Glove" class="offline">Not Found</span></h3>
+        AR Environment: <span id="AR" class="online">Found</span><br>
+        VR Environment: <span id="VR" class="online">Found</span><br>
+    </div>
+    <h1>Smart Helmet</h1>
+    <span>SRM Team Robocon</span>
+    <h2>Build 22.8.8</h2>
+    Currently, the helmet is <span id="status" class="offline">offline</span>.<br>
+    p5.xr <span id="status" class="online">Online</span> running VR mode.<br>
+
+
+
+
+    <script src="ui.js"></script>
+    <script src="sketch.js"></script>
+</body>
+
+</html>

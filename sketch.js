@@ -1,4 +1,4 @@
-const VRMode = false;
+const VRMode = true;
 
 function preload() {
     if (VRMode) createVRCanvas();

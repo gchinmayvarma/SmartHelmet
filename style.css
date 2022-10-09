@@ -1,9 +1,29 @@
 html,
 body {
-    margin: 0;
+    margin: 10;
     padding: 0;
+    background-color: rgb(10, 10, 10);
+    color: rgb(200, 200, 200);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 canvas {
     display: block;
+}
+
+.offline {
+    color: rgb(200, 120, 120);
+}
+
+.online {
+    color: rgb(120, 200, 120);
+}
+
+#status-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: right;
 }
